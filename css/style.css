@@ -13,8 +13,27 @@ ul{
 }
 a{
   text-decoration: none;
+  color: white;
 }
 img{
   display: block;
   max-width: 100%;
+}
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+/* Top */
+.top{
+  background-color: #122AB2;
+  color: white;
+}
+.top .container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+.top .container p, .top .container a{
+  margin: 0 10px 10px 10px;
 }
